@@ -1,0 +1,80 @@
+*{
+    background-color: rgb(51, 50, 50);
+    margin: auto;
+    
+}
+#logo{
+    position: relative;
+    width: 120px; height: auto;
+   
+    
+}
+#me{
+    position: relative;
+    width: 250px; height: auto;
+   left: 1030px;
+   top: 35px;
+}
+a{
+    padding: 20px;
+    position: relative;
+    left: 1000px;
+    bottom:35px;
+    color: white;
+    text-decoration: none;   
+}
+a:hover{
+    color: rgb(131, 127, 127);
+}
+.square-box {
+    width: 250px;
+    height: 345px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    left: 480px;
+    bottom: 314px;
+    opacity: 0.2;
+  }
+h3{
+    position: absolute;
+    bottom: 465px;
+    left: 20px;
+    color: white;
+}
+h1{
+    position: absolute;
+    bottom: 410px;
+    left: 20px;
+    font-size: xxx-large;
+}
+h4{
+    position: absolute;
+    bottom: 390px;
+    left: 20px;
+    color: white;
+}
+pre{
+    position: absolute;
+    bottom: 67px;
+    left: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;  
+}    
+hr {
+    position: relative;
+    top: 5px;
+    border: none;
+    border-top: 2px solid black;
+  }
+#social_media{
+    position: absolute;
+   right: 1850px;
+    bottom: 500px;
+    display: flex;   
+}
+#social_media img:hover{
+    width: 52px;
+    border-bottom: 2px  black;
+}
